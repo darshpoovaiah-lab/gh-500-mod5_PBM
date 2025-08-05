@@ -7,6 +7,7 @@ on:
 jobs:
   CodeQL-Build:
     runs-on: ubuntu-latest
+    uses: .github/codeql/codeql-config.yml
 
     permissions:
       # required for all workflows
